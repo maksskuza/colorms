@@ -1,0 +1,82 @@
+.footer {
+  padding: 4rem 6rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.footer-links div {
+  width: 250px;
+  margin: 1rem;
+}
+
+.footer-links-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links-logo img {
+  width: 143.52px;
+  height: 30.14px;
+  margin-bottom: 1rem;
+}
+
+.footer-links-logo p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.footer-links-cont {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.footer-links-cont h4 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.footer-links-cont p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin: 0.5rem 0;
+}
+
+.footer-links-cont a {
+  cursor: pointer;
+}
+
+.footer-ending {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-ending p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 550px) {
+  .footer-links div {
+    margin: 1rem 0;
+  }
+}

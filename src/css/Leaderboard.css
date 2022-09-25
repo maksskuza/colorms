@@ -1,0 +1,156 @@
+.leaderboard-welcome {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaderboard-welcome h1 {
+  font-size: 36px;
+  line-height: 40px;
+  color: #81AFDD;
+  margin-bottom: 1rem;
+}
+
+.leaderboard-welcome p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.leaderboard-top {
+  padding: 4rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.leaderboard-top div {
+  width: 250px;
+  margin: 1rem 3rem;
+}
+
+.leaderboard-top-cont {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaderboard-top-cont h2 {
+  font-size: 28px;
+  line-height: 30px;
+  color: #81AFDD;
+  margin-bottom: 1rem;
+}
+
+.leaderboard-top-cont h3 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0.5rem 0;
+}
+
+.leaderboard-table {
+  padding: 0 6rem 6rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.leaderboard-table div {
+  width: 250px;
+  margin: 1rem 3rem;
+}
+
+.leaderboard-table-cont {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.leaderboard-table-cont table, th, tr, td {
+  border: 1px solid #81AFDD;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.leaderboard-table-cont th {
+  color: #81AFDD;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.leaderboard-table-cont td {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 900px) {
+  .leaderboard-top div {
+    margin: 1rem 1.5rem;
+  }
+
+  .leaderboard-table div {
+    margin: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leaderboard-welcome h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 1rem;
+  }
+  
+  .leaderboard-welcome p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .leaderboard-top-cont h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 1rem;
+  }
+  
+  .leaderboard-top-cont h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0.5rem 0;
+  }
+
+  .leaderboard-table-cont th {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .leaderboard-table-cont td {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .leaderboard-table div {
+    margin: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .leaderboard-top div {
+    margin: 1rem 1rem;
+  }
+
+  .leaderboard-table div {
+    margin: 1rem 0.5rem;
+  }
+}

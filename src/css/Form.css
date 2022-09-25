@@ -1,0 +1,124 @@
+.login-cont {
+  padding: 6rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-cont h1 {
+  padding: 0 0 2rem 0;
+  border-bottom: 2px solid #81AFDD;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+}
+
+.login-cont form {
+  padding: 2rem 0;
+  box-sizing: border-box;
+}
+
+.login-cont-field {
+  border-bottom: 1px solid #81AFDD;
+  margin: 1rem 0;
+}
+
+.login-cont-field input {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0 0.5rem;
+  height: 3rem;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+  background: rgba(0,0,0,0.3);
+  border-radius: 5px 5px 0 0;
+  outline: none;
+  color: #ffffff;
+}
+
+.login-cont-field label {
+  color: #81AFDD;
+  font-size: 18px;
+}
+
+.login-cont-message {
+  margin-bottom: 1rem;
+}
+
+.login-cont-message p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #81AFDD;
+}
+
+.login-cont input[type="submit"] {
+  margin-left: 10%;
+  width: 80%;
+  height: 3rem;
+  border: 1px solid black;
+  background: rgba(0,0,0,0.5);
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.login-cont input[type="submit"]:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.login-cont-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.login-cont-link p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #81AFDD;
+}
+
+.login-cont-link a {
+  font-weight: 600;
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 650px) {
+  .login-cont h1 {
+    font-size: 52px;
+    line-height: 64px;
+  }
+
+  .login-cont-field input {
+    height: 2.5rem;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  .login-cont-field label {
+    font-size: 16px;
+  }
+
+  .login-cont-message p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .login-cont input[type="submit"] {
+    height: 2.5rem;
+    font-size: 18px;
+  }
+
+  .login-cont-link p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

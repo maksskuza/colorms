@@ -1,0 +1,289 @@
+.game {
+  padding: 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.game-top div {
+  width: 250px;
+  margin: 1rem 3rem;
+}
+
+.game-top-cont {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.game-top-cont h2 {
+  font-size: 28px;
+  line-height: 30px;
+  color: #81AFDD;
+  margin-bottom: 1rem;
+}
+
+.game-top-cont h3 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #81AFDD;
+  margin: 0.5rem 0;
+}
+
+.game-top-cont h4 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0.5rem 0;
+}
+
+.game-top-cont button {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.game-top-cont-topbt {
+  border-radius: 5px 5px 0 0;
+}
+
+.game-top-cont-botbt {
+  border-radius: 0 0 5px 5px;
+}
+
+.game-window {
+  margin-top: 4.5rem;
+  padding: 0rem 6rem 4rem 6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 1024px;
+  height: 512px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.game-window-correct {
+  padding: 1.5rem 3rem;
+  border-radius: 0 0 20px 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.game-window-correct h1 {
+  font-size: 30px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.game-window h3 {
+  margin: 1rem 0 4rem 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.game-window-newgame {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background: rgba(0,0,0,0.5);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.game-window-newgame:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.box {
+  width: 9.5rem;
+  height: 5rem;
+  margin: 0 1.5rem 2rem 1.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .game-window {
+    width: 819.2px;
+    height: 409.6px;
+  }
+
+  .game-window-correct {
+    padding: 1rem 2.5rem;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .game-window-correct h1 {
+    font-size: 26px;
+    line-height: 29px;
+  }
+  
+  .game-window h3 {
+    margin: 1rem 0 3rem 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .box {
+    width: 8rem;
+    height: 4.5rem;
+    margin: 0 1rem 1.5rem 1rem;
+  }
+
+  .game-window-newgame {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .game-window {
+    width: 655.4px;
+    height: 327.7px;
+  }
+
+  .game-window-correct {
+    padding: 1rem 2.5rem;
+  }
+
+  .game-window-correct h1 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  
+  .game-window h3 {
+    margin: 1rem 0 2rem 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .box {
+    width: 6rem;
+    height: 3.5rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+
+  .game-window-newgame {
+    font-size: 13px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .game-window {
+    width: 458.8px;
+    background-size: cover;
+    padding: 0rem 3rem 4rem 3rem;
+  }
+
+  .box {
+    width: 6rem;
+    height: 3.5rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .game-top-cont h2 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  
+  .game-top-cont h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .game-top-cont button {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .game-window {
+    width: 367px;
+    background-size: cover;
+    padding: 0rem 2rem 4rem 2rem;
+  }
+
+  .box {
+    width: 5rem;
+    height: 3rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .game-top-cont h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .game-top-cont h3 {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  
+  .game-top-cont button {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .game-top div {
+    margin: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .game-window {
+    width: 293.6px;
+    height: 262.2px;
+    background-size: cover;
+    padding: 0rem 1rem 3rem 1rem;
+  }
+
+  .box {
+    width: 4rem;
+    height: 2.5rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .game-window-correct {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .game-window-correct h1 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .game-window h3 {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .game-window-newgame {
+    font-size: 11px;
+    line-height: 14px;
+  }
+}

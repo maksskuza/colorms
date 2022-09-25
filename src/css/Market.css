@@ -1,0 +1,153 @@
+.market-welcome {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.market-welcome h1 {
+  font-size: 36px;
+  line-height: 40px;
+  color: #81AFDD;
+  margin-bottom: 1rem;
+}
+
+.market-welcome p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.market-images {
+  padding: 4rem 6rem 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.market-images-cont {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img0, .img1, .img2, .img3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #81AFDD;
+  width: 330px;
+  height: 200px;
+  margin: 1rem 2rem;
+}
+
+.img0 {
+  background-image: url('../images/obraz.png');
+}
+
+.img1 {
+  background-image: url('../images/obraz1.png');
+}
+
+.img2 {
+  background-image: url('../images/obraz2.png');
+}
+
+.img3 {
+  background-image: url('../images/obraz3.png');
+}
+
+.in {
+  width: 330px;
+  height: 200px;
+}
+
+.market-images-cont button {
+  width: 50%;
+  padding: 0rem 0.5rem;
+  border: 1px solid black;
+  background: rgba(0,0,0,0.5);
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 4.5rem;
+}
+
+.market-images-cont button:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.market-images-cont button:disabled {
+  background-color: rgba(0,0,0,0.2);
+  border: 1px solid rgba(0,0,0,0.6);
+  color: rgba(255,255,255,0.8);
+}
+
+@media screen and (max-width: 600px) {
+  .market-welcome h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  
+  .market-welcome p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .img0, .img1, .img2, .img3 {
+    width: 264px;
+    height: 160px;
+    margin: 1rem 1.5rem;
+  }
+
+  .in {
+    width: 264px;
+    height: 160px;
+  }
+
+  .market-images-cont button {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .market-images {
+    padding: 4rem 4rem 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .market-images {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+
+  .market-welcome h1 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+  .market-welcome p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .img0, .img1, .img2, .img3 {
+    width: 224.4px;
+    height: 136px;
+  }
+
+  .in {
+    width: 224.4px;
+    height: 136px;
+  }
+
+  .market-images-cont button {
+    font-size: 15px;
+  }
+}

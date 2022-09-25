@@ -1,0 +1,130 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-links-logo {
+  margin-right: 5.5rem;
+}
+
+.navbar-links-logo img{
+  width: 96px;
+  height: 20.16px;
+}
+
+.navbar-links-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-links-logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-links-cont p,
+.navbar-menu-cont p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.navbar-links-cont p:hover {
+  text-decoration: overline;
+}
+
+.navbar-logout button,
+.navbar-menu-cont button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  left: 1153px;
+  top: 55px;
+  background: #b96b68;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+}
+
+.navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.navbar-menu svg {
+  cursor: pointer;
+}
+
+.navbar-menu-cont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background-color: #040c18;
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0,0,0,0.2);
+  z-index: 99 !important;
+}
+
+.navbar-menu-cont p {
+  margin: 1rem 0;
+}
+
+.navbar-menu-cont-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar-links-cont {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding: 2rem;
+  }
+
+  .navbar-links-logout {
+    display: none;
+  }
+
+  .navbar-menu-cont {
+    top: 20px;
+  }
+}
