@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className='footer-links-cont'>
           <h4>Project</h4>
-          <p>Github</p>
+          <p><a href="https://github.com/maksskuza/colorms" target="_blank">Github</a></p>
           <p><a href="https://color-rest-api.herokuapp.com/api/color/" target="_blank">API</a></p>
         </div>
         <div className='footer-links-cont'>
