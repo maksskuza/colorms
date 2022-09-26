@@ -6,7 +6,7 @@ This project is deployed on Heroku: https://colorms.herokuapp.com/
 API Github link: https://github.com/maksskuza/color_api  
 API Heroku link: https://color-rest-api.herokuapp.com/api/color  
 
-Author: 'maksskuza@gmail.com'
+Author: maksskuza@gmail.com
 
 ## Note
 
