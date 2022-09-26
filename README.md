@@ -17,8 +17,7 @@ Username: `test`
 Password: `Color.test`
 
 ### Usage
-
-In order to start the application you can simply type on terminal:  
+ 
 `npm start`
 
 ### Description
