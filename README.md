@@ -26,7 +26,3 @@ In order to start the application you can simply type on terminal:
 COLOR.MS is a simple, color guessing game. Based on rgb or hex representation, you have to choose the correct color.  
 There are 2 levels of difficulty and 2 modes available.  
 Every player can have their own account, his highscores together with a few other things are dynamically saved on API.  
-
-## Browsers
-
-App was tested on: Brave, Microsoft Edge, Opera, Google Chrome.
