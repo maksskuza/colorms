@@ -13,8 +13,8 @@ Author: maksskuza@gmail.com
 Heroku server may take up to a minute to load, if it hasn't been used before.  
 
 For start you can either create your own account via register page or login on test account:  
-Username: 'test'  
-Password: 'Color.test'  
+Username: test  
+Password: Color.test  
 
 ## Description
 
@@ -24,4 +24,4 @@ Every player can have their own account, his highscores together with a few othe
 
 ## Browsers
 
-App was tested on: 'Brave', 'Microsoft Edge', 'Opera', 'Google Chrome'.
+App was tested on: Brave, Microsoft Edge, Opera, Google Chrome.
