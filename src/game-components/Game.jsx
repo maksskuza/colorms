@@ -10,13 +10,13 @@ import bg3 from '../images/obraz3.png'
 let id
 
 const Game = () => {
-  const [correct, setCorrect] = useState('');
-  const [renderNew, setRenderNew] = useState(false);
-  const [gameMessage, setGameMessage] = useState("Let's play!");
-  const [gamePoints, setGamePoints] = useState(0);
-  const [gameHearts, setGameHearts] = useState(3);
-  const [isOver, setIsOver] = useState(false);
-  const [buttonVis, setButtonVis] = useState('hidden');
+  const [correct, setCorrect] = useState('')
+  const [renderNew, setRenderNew] = useState(false)
+  const [gameMessage, setGameMessage] = useState("Let's play!")
+  const [gamePoints, setGamePoints] = useState(0)
+  const [gameHearts, setGameHearts] = useState(3)
+  const [isOver, setIsOver] = useState(false)
+  const [buttonVis, setButtonVis] = useState('hidden')
   const [difficulty, setDifficulty] = useState('easy')
   const [easyStyles, setEasyStyles] = useState({backgroundColor: 'rgba(255,255,255,0.8)', color: 'black'})
   const [hardStyles, setHardStyles] = useState({backgroundColor: 'rgba(255,255,255,0.2)', color: 'white'})
