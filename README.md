@@ -16,12 +16,12 @@ To start, you can either create your own account via register page or login on t
 Username: `test`  
 Password: `Color.test`
 
-## Usage
+### Usage
 
 In order to start the application you can simply type on terminal:  
 `npm start`
 
-## Description
+### Description
 
 COLOR.MS is a simple, color guessing game. Based on rgb or hex representation, you have to choose the correct color.  
 There are 2 levels of difficulty and 2 modes available.  
