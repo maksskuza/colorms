@@ -12,9 +12,9 @@ Author: maksskuza@gmail.com
 
 Heroku server may take up to a minute to load, if it hasn't been used before.  
 
-For start you can either create your own account via register page or login on test account:  
-Username: test  
-Password: Color.test  
+To start, you can either create your own account via register page or login on test account:  
+Username: `test`  
+Password: `Color.test`
 
 ## Usage
 
