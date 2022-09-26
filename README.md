@@ -18,7 +18,7 @@ Password: Color.test
 
 ## Usage
 
-To start the application you can simply type on terminal:  
+In order to start the application you can simply type on terminal:  
 `npm start`
 
 ## Description
